@@ -10,14 +10,14 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,12,32];
 /* The splice() method adds/removes items to/from an array, and then returns the removed item. The first argument specifies the array position/index for insertion or deletion whereas the optional second argument indicates the number of elements to be deleted. Each additional argument is added to the array. */
 
 
-let person = ["ram","raj","ramesh"];
+/* let person = ["ram","raj","ramesh"];
 let alphabet = ["a","b","c","d","e","f"];
 let num = [1,2,4,5,6,7]; //num [1, 2, 11, 12,13,6,7]
 
 
 let newPerson = person.splice(0,2);//
-
-
+ */
+/* 
 console.log('newPerson', newPerson)// [ 'ram', 'raj' ]
 
 
@@ -31,4 +31,9 @@ console.log('newNum', newNum)
 console.log('num', num)
 
 
-console.log((typeof(NaN)));
+console.log((typeof(NaN))); */
+
+
+let name;
+ console.log('name', name)
+ console.log(typeof (name));
