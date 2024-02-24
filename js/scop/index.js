@@ -25,3 +25,20 @@ for (let i = 0; i < obj.length; i++) {
 }
 
 console.log("names", names);
+
+// Constructor Funtion
+
+function User(firstName, lastName, age) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.age = age;
+}
+
+let myobj = new User("OP", "Tanwar", 22);
+
+console.log(myobj.firstName);
+
+
+(function(num){
+  console.log('num+num', num+num)
+})(5);
