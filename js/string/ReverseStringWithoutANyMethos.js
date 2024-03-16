@@ -7,7 +7,7 @@ for (let i = str.length - 1; i >= 0; i--) {
 
 console.log("revStr", revStr);
 
-function sum() {
+function add() {
   return function (a) {
     return function (b) {
       return function (c) {
@@ -16,5 +16,4 @@ function sum() {
     };
   };
 }
-
-sum()(2)(3)(5);
+add()(2)(3)(5);
