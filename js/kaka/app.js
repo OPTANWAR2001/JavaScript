@@ -76,7 +76,7 @@ let arr2 = [3, 22, 44, 36];
 let sortArr = [...arr1, ...arr2].sort((a, b) => a - b);
 console.log("sortArr", sortArr);
 
-//!8  Implement a function to find the sum of all the numbers in an array.
+//!8  Implement a function to find the sum of all the numbers in an arrays.
 
 let arr3 = [1, 2, 3, 4, 5];
 
@@ -84,7 +84,7 @@ let sumOfArr = arr3.reduce((acc, curr) => acc + curr, 0);
 
 console.log("sumOfArr", sumOfArr);
 
-//!9  Write a functions that finds the longest word in a sentence.
+//!9  Write a functions that finds the longest word in a sentence .
 
 let sentence = "hi, my name is omprakash tanwar";
 
