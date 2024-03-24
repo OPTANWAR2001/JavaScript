@@ -2,6 +2,6 @@
 
 let word = "optanaar";
 
-let newWord = word.charAt(0).toLocaleUpperCase()+word.slice(1);
+let newWord = word.charAt(0).toLocaleUpperCase() + word.slice(1);
 
-console.log("newWord : ", newWord);
+console.log("new", newWord);
